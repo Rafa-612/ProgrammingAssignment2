@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
   # Get the stored matrix
   get <- function() x
   
-  # Set the cached inverse
+  # Set the cached inversed
   setinverse <- function(inversed_matrix) inverse <<- inversed_matrix
   
   # Get the cached inverse
